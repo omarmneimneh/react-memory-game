@@ -5,7 +5,7 @@ const ScoreBoard = ({ score, highScore }) =>{
     return(
         <div>
             <p>Score: {score}</p>
-            <p>Highscore: {score > highScore ? score : highScore}</p>
+            <p>Highscore: {highScore}</p>
         </div>
     )
 }
